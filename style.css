@@ -1,0 +1,62 @@
+body {
+    background-color: #000000;
+    color: #FFA500;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #FFA500;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.stButton > button {
+    background-color: #FFA500;
+    color: #000000;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFA500;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Custom styling for Streamlit components */
+.stTextInput > div > div > input {
+    background-color: #1E1E1E;
+    color: #FFA500;
+}
+
+.stFileUploader > div > button {
+    background-color: #FFA500;
+    color: #000000;
+}
