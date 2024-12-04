@@ -4,5 +4,5 @@ opencv_python_headless==4.10.0.84
 Pillow==11.0.0
 Pyrebase4==4.8.0
 streamlit==1.39.0
-tensorflow==2.18.0
-tensorflow_intel==2.18.0
+tensorflow==2.10.0
+tensorflow_intel==2.10.0
