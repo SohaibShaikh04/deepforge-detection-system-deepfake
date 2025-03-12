@@ -1,7 +1,20 @@
-numpy==1.23.5
+# Allow a flexible range of versions for numpy
+numpy>=1.20.0,<2.0.0
+
+# Keep opencv_python versions as is, since they are commonly compatible
 opencv_python==4.10.0.84
 opencv_python_headless==4.10.0.84
-Pillow==11.0.0
-Pyrebase4==4.8.0
-streamlit==1.37.1
-tensorflow==2.17.0
+
+# Loosen the version constraint for Pillow to avoid conflicts with Streamlit
+Pillow>=7.1.0,<11.0.0
+
+# Allow any version of Pyrebase4 that is compatible
+Pyrebase4>=4.8.0,<5.0.0
+
+# Loosen the Streamlit version constraint to avoid conflicts with Pillow
+streamlit>=1.30.0,<2.0.0
+
+# Make TensorFlow more flexible
+tensorflow>=2.17.0,<3.0.0
+
+
