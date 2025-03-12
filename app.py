@@ -227,7 +227,7 @@ if choice == "Home":
         This app aims to help users detect whether a video is real or manipulated, contributing to the fight against misinformation and preserving trust in digital content.
     """)
 
-    st.image(r"B:\Downloads\Deepfake Streamlit APP\Leonardo_Phoenix_A_surreal_and_futuristic_digital_artwork_depi_3.jpg", use_column_width=True)
+    st.image(r"public/Leonardo_Phoenix_A_surreal_and_futuristic_digital_artwork_depi_3.jpg", use_container_width=True)
 
 elif choice == "Signup":
     st.header("Create an Account")
