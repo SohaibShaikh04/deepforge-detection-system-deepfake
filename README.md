@@ -1,8 +1,8 @@
-Deepfake Video Detection System
+# Deepfake Video Detection System
 
 This project aims to detect deepfake videos using a hybrid deep learning approach combining Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs). The model extracts spatial features from video frames and captures temporal patterns across sequences to identify manipulations.
 
-Features
+## Features
 
 - CNN for spatial feature extraction
 - RNN (GRU) for temporal sequence analysis
@@ -11,7 +11,7 @@ Features
 - User-friendly UI for video upload and prediction
 
 
-How It Works
+## How It Works
 
 1. Upload a video via the interface.
 2. The video is split into frames.
@@ -20,7 +20,7 @@ How It Works
 5. The model outputs the probability of the video being deepfake.
 
 
-Future Scope
+## Future Scope
 
 1. Improve detection of advanced deepfake types like lip-syncing and face morphing
 2. Add audio-visual inconsistency checks for better accuracy
